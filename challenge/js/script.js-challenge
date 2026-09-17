@@ -1,0 +1,43 @@
+/**
+ * windows background by mai
+ * mai
+ * 
+ * paysage using shape and colour
+ */
+
+"use strict";
+
+/**
+ * Sets up the initial environment for the sketch.
+ */
+function setup() {
+    createCanvas(800, 600);
+    background(300, 50, 20);
+    //call the function - run the code
+    drawsky();
+    drawHouseBody();
+    
+
+}
+
+
+
+
+/**
+ * Draws the sketch.
+ */
+function drawRoof() {
+    push();
+    fill(1200, 200, 255);
+    triangle(30,75,65,20,100,75);
+    pop();
+
+
+}
+function drawHouseBody(){
+    push();
+    fill(255,0,0);
+    rect(350,350,70,50);
+    pop()
+
+}
